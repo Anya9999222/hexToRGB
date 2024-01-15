@@ -34,6 +34,7 @@ const Input = () => {
                 // style={{borderColor: rgb}}
                 onChange={handlerChange}
                 value = {hex}
+                maxLength={7}
             />
             <div className="result">
                 {rgb}
